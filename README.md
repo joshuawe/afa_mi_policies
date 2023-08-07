@@ -23,7 +23,7 @@
 
 ### Multiple Imputation
 
-In order to impute (=fill in) the missing values in the MIMIC dataset, we use a multi-task Gaussian Process (GP) [[2] using the GPytorch library [3]. 
+In order to [impute](https://en.wikipedia.org/wiki/Imputation_(statistics)) (=fill in) the missing values in the MIMIC dataset, we use a multi-task Gaussian Process (GP) [2] using the GPytorch library [3]. 
 Instead of doing single imputation (e.g. mean imputation or last observation carried forward), the GP helps us model the uncertainty of a value to be predicted. Hence, we can sample multiple times for every missing data point. This way we can train subsequent prediction models on commonly and less commonly observed values in the missing cases.
 
 ### Active Featuer Acquisition (AFA)
