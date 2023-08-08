@@ -35,10 +35,15 @@ The acquired information should ideally support the predictor in its taks. At th
 Depending on the decision agent's policy the performance of the predictor may change as well as the over all costs of the AFA system.
 
 
-
+# Data
+MIMIC IV is a freely accessible ICU dataset containing Electronic Health Records about patients such as their vital signs, laboratory tests, medications and more. The cohort of the dataset is situated in the US.  
+Preprocessing was provided by [4].   
+**What are further adjustments / preprocessing steps that were done?** 
++ shortening the max. time series lengths?
 
 
 # Sources
 1. [Johnson, A., Bulgarelli, L., Pollard, T., Horng, S., Celi, L. A., & Mark, R. (2023). MIMIC-IV (version 2.2). PhysioNet](https://doi.org/10.13026/6mm1-ek67)
 2. [Edwin V. Bonilla, Kian Ming A. Chai, and Christopher K. I. Williams. 2007. Multi-task Gaussian Process prediction. In Proceedings of the 20th International Conference on Neural Information Processing Systems (NIPS'07). Curran Associates Inc., Red Hook, NY, USA, 153–160.](https://dl.acm.org/doi/abs/10.5555/2981562.2981582)
 3. [Gardner, Jacob R., Geoff Pleiss, David Bindel, Kilian Q. Weinberger, and Andrew Gordon Wilson. "GPyTorch: Blackbox Matrix-Matrix Gaussian Process Inference with GPU Acceleration." In Advances in Neural Information Processing Systems (2018).](https://arxiv.org/abs/1809.11165), Link to [website](https://gpytorch.ai/)
+4. [Rockenschaub, P., Hilbert, A., Kossen, T., von Dincklage, F., Madai, V. I., & Frey, D. (2023). Generalisability of deep learning-based early warning in the intensive care unit: a retrospective empirical evaluation. arXiv preprint arXiv:2303.15354.](https://arxiv.org/abs/2303.15354)
