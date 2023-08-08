@@ -13,7 +13,7 @@
 
   
 - Active Feature Acquisition (AFA) ... what is that?  
-- AFA under missingness
+- AFA under missingness can be biased
 - How to evaluate AFA under missingness? -> We can use multiple imputation, see my thesis
 - Now with fully observed data, we compare different AFA policies on a medical dataset: MIMIC [1], a dataset containing Electronic Health Data (EHR) for patients in the ICU
 
@@ -24,7 +24,7 @@
 ### Multiple Imputation
 
 In order to [impute](https://en.wikipedia.org/wiki/Imputation_(statistics)) (=fill in) the missing values in the MIMIC dataset, we use a multi-task Gaussian Process (GP) [2] using the GPytorch library [3]. 
-Instead of doing single imputation (e.g. mean imputation or last observation carried forward), the GP helps us model the uncertainty of a value to be predicted. Hence, we can sample multiple times for every missing data point. This way we can train subsequent prediction models on commonly and less commonly observed values in the missing cases.
+Instead of doing single imputation (e.g. mean imputation or last observation carried forward), the GP helps us model the uncertainty of a value to be predicted. Hence, we can sample multiple times for every missing data point. This way - using Multiple Imputation - we can train subsequent prediction models on commonly and less commonly observed values in the missing cases.
 
 ### Active Featuer Acquisition (AFA)
 
