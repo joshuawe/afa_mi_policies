@@ -1,0 +1,6 @@
+;acquire_CBC;acquire_CBC+diff
+cost;26;35
+resolution;1;1
+delay;1;0
+target_superfeatures;CBC;CBC
+target_superfeatures;;diff_from_CBC
