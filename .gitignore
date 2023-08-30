@@ -1,2 +1,7 @@
-data/miiv_test/MCAR_1/miiv_test_MCAR_1_static.parquet
-data/miiv_test/MCAR_1/miiv_test_MCAR_1_ts_wide.parquet
+*.hkl
+*.parquet
+*model_weights*
+*lightning_logs*
+*checkpoint*
+**/logistic_regression/logs/*
+
