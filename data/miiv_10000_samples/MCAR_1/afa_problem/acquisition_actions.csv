@@ -1,0 +1,6 @@
+;acquire_CBC;acquire_CBC+diff;acquire_BMP;acquire_CMP;acquire_ABG;acquire_CRP
+cost;26;35;36;48;474;26
+resolution;1;1;1;1;1;1
+delay;1;0;1;1;1;1
+target_superfeatures;CBC;CBC;BMP;BMP;ABG;CRP
+target_superfeatures;;diff_from_CBC;;CMP_without_BMP;;
