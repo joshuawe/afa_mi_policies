@@ -1,7 +1,9 @@
 # Comparing different AFA policies for predicting Sepsis in the ICU
 
 
-
+<p align="center">
+ <img width="400px" src="hospital_visualization.png" align="center" alt="ICU Visualization" />
+</p>
    
 > ---------------------------------------------
 > Note:  
@@ -43,6 +45,7 @@ Preprocessing was provided by [4].
 
 
 # Sources
+0. Project image  by [DALL-E 3](https://openai.com/dall-e-3), 17th October 2023, prompt: Streamlined schematic in a 7:3 ratio. Leftmost, a patient in bed with minimal graphs above showing medical data. Centered, an uncomplicated robot face inside a circular boundary symbolizes AI. To its right, two boxes; top for diagnosis and bottom for lab tests. Simple arrows connect these three primary sections.
 1. [Johnson, A., Bulgarelli, L., Pollard, T., Horng, S., Celi, L. A., & Mark, R. (2023). MIMIC-IV (version 2.2). PhysioNet](https://doi.org/10.13026/6mm1-ek67)
 2. [Edwin V. Bonilla, Kian Ming A. Chai, and Christopher K. I. Williams. 2007. Multi-task Gaussian Process prediction. In Proceedings of the 20th International Conference on Neural Information Processing Systems (NIPS'07). Curran Associates Inc., Red Hook, NY, USA, 153–160.](https://dl.acm.org/doi/abs/10.5555/2981562.2981582)
 3. [Gardner, Jacob R., Geoff Pleiss, David Bindel, Kilian Q. Weinberger, and Andrew Gordon Wilson. "GPyTorch: Blackbox Matrix-Matrix Gaussian Process Inference with GPU Acceleration." In Advances in Neural Information Processing Systems (2018).](https://arxiv.org/abs/1809.11165), Link to [website](https://gpytorch.ai/)
