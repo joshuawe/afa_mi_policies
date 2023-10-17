@@ -1,8 +1,8 @@
-# Comparing different AFA policies for predicting Sepsis in the ICU
 
 
 <p align="center">
- <img width="400px" src="hospital_visualization.png" align="center" alt="ICU Visualization" />
+ <img width="400px" src="AFA_sepsis_visualization.png" align="center" alt="ICU Visualization" />
+ <h1>Comparing different AFA policies for predicting Sepsis in the ICU</h1>
 </p>
    
 > ---------------------------------------------
